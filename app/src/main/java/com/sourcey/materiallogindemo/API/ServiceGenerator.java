@@ -12,7 +12,7 @@ import retrofit2.converter.gson.GsonConverterFactory;
 
 public class ServiceGenerator {
 
-    private static final String API_BASE_URL = "http://166.62.127.153:9000/";
+    private static final String API_BASE_URL = "http://<IP>:9000/";
 
     private static OkHttpClient.Builder httpClient = new OkHttpClient.Builder().connectTimeout(5, TimeUnit.MINUTES)
             .readTimeout(5, TimeUnit.MINUTES);
